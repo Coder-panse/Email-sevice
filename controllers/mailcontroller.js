@@ -5,7 +5,7 @@ const sendMail = async (req, res) => {
     const { name, email, subject, message } = req.body;
   
     const msg = {
-      to: "harshad.pansecse2022@indoreinstitute.com",
+      to: "Goldnnsa@gmail.com",
       from: {
         name:name,
         email:"gharshadpanse123@gmail.com"
